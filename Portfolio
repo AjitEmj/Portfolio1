@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+img{
+height:250px;
+width:180px;}
+#profile{
+text-align:center;
+}
+#frame{
+text-align:center;}
+body{
+margin:0;
+}
+
+#navlist{
+overflow:hidden;
+background-color:#0074D9;
+}
+#navlist a{
+float:right;
+display:block;
+color:#f2f2f2;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+}
+#navlist a:hover{
+background-color:red;
+color:black;
+}
+#navlist b{
+margin-top:4px;
+padding:8px 12px;
+color:lime;
+float:left;
+font-size:45px;
+}
+.scrollable b{
+font-family:'Special Elite',cursive;
+font-size:50px;
+}
+.content{
+padding:16px;
+}
+.sticky{
+position:fixed;
+top:0;
+width:100%;
+}
+</style>
+</head>
+
+
+
+<body>
+<div id="profile">
+<img src="C:\Users\USER\Desktop\HTML Assignment\qimage
+\aj.jpg">
+<h1 style="font-size:40px">AJIT EKKA</h1>
+</div>
+
+<div id="frame">
+<iframe src="portintro.html" height="250" width="900">
+</iframe>
+</div>
+
+<div id="navlist">
+<a href="javascript:void(0)">contact</a><a 
+href="javascript:void(0)">careers</a>
+<a href="javascript:void(0)">portfolio</a>
+<a href="javascript:void(0)">About</a>
+<a href="javascript:void(0)">home</a>
+</div>
+<div class="scrollable"
+style="padding:15px 15px 4500px;">
+<p>7djjcbdsnbnbnmc<p>
+<p>gdsjgddbchc<p>
+<p>7djjcbdsnbnbnmc<p>
+<p>gdsjgddbchc<p>
+
+<p>A constructor is a memeber function of a class that is 
+used to create objects of that class.
+It has the same name as the class itself,it has no return 
+type,and is invoked used new operator.<p>
+<p>A constructor is a memeber function of a class that is 
+used to create objects of that class.
+It has the same name as the class itself,it has no return 
+type,and is invoked used new operator.<p>
+<p>A constructor is a memeber function of a class that is 
+used to create objects of that class.
+It has the same name as the class itself,it has no return 
+type,and is invoked used new operator.<p>
+</div>
+<script>
+window.onscroll=function() {myFunction()}
+var navlist=document.getElementById("navlist");
+var sticky=navlist.offsetTop;
+
+function myFunction(){
+if(window.pageYOffset>=sticky)
+{
+navlist.classList.add("sticky")
+}
+else{
+navlist.classList.remove("sticky");
+}
+}
+</script>
+</body>
+</html>
