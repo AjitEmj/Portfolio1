@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function matchpass(){
+            var firstp=document.f1.password1.value;
+            var secp=document.f2.password2.value;
+            if(firstp==secp){
+                return true;
+
+            }
+            else{
+                alert("password must be same!");
+                return false;
+            }
+        }
+    
+    </script>
+</head>
+
+<body>
+    <form name="f1" onsubmit="matchpass()">
+    password1:<input type="password"
+    name="password"/>
+    re-enter Password:<input type="password1" name="password2"/>
+    <input type="submit">
+    </form>
+
+</body>
+</html>
